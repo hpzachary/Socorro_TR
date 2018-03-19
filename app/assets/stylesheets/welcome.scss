@@ -1,3 +1,37 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// css for index.html.erb 
+
+h1 {
+	color: red;
+	font-size: 100px;
+}
+
+h2 {
+	height: 500px;
+	width: 500px;
+	margin-left: 200px;
+}
+
+// css for navbar 
+
+#navbar_headline_text {
+	text-align: center;
+	font-size: 60px;
+}
+
+#navbar {
+	max-height: 10px;
+	border-color: white;
+}
+
+#navbar_button_css {
+	
+	margin-left: 30px;
+	color: black;
+}
+
+
+
