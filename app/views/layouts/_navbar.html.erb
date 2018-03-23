@@ -1,55 +1,67 @@
-<div class="container-fluid" >
-   <div class="row" >
-       
-       <div class="col-md-12" id="navbar_headline_text">
-           <div class="headline" style="font-family: Times Header"> Socorro Daily </div>
-       </div>
-      
-    </div>
-</div> 
+<div class="headline"> Socorro Daily </div>
 
-<nav id="navbar" class="navbar navbar-default" style="background-color: #F0F8FF">
+<nav class="navbar navbar-default" style="margin-top: 20px; background-color: #000080" >
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-     
-      <a class="navbar-brand" >
-        <img style="width: 80px; min-height: 80px; margin-top: -30px; margin-left: -15px" src="assets/zia.png" </a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#button_collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>     
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse">
+    <div class="collapse navbar-collapse" id="button_collapse">
       <ul class="nav navbar-nav">
-        <li><a href="#" id="navbar_button_css"> News </a></li>
-          <li><a href="#" id="navbar_button_css"> Community </a></li>
-        <li id="dropdown btn-group">
-          <a href="#" id="navbar_button_css" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Schools <span class="caret"></span></a>
+        <li><a href="#" id="navbar_button_style"> News <span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" id="navbar_button_style" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Community <span class="sr-only">(current)</span></a>
           <ul class="dropdown-menu">
-            <li><a href="#"> Parkview </a></li>
-            <li><a href="#"> Zimmerly </a></li>
-            <li><a href="#"> Torres </a></li>
-              <li role="separator" class="divider"></li>
-            <li><a href="#"> Sarracino </a></li>
-              <li role="separator" class="divider"></li>
-            <li><a href="#"> Socorro High </a></li>
-              <li role="separator" class="divider"></li>
-            <li><a href="#"> New Mexio Tech </a></li>
+            <li><a href="#"> Events </a></li>
+            <li><a href="#"> Art </a></li>
+            <li><a href="#"> History </a></li>
+            <li><a href="#"> Music </a></li>           
+            <li><a href="#"> Op-eds </a></li>
           </ul>
         </li>
-        <li><a href="#" id="navbar_button_css"> Op-eds </a></li>
-        <li class="dropdown btn-group">
-          <a href="#" id="navbar_button_css" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> World News <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#"> Republican </a></li>
-              <li><a href="#"> Democrat </a></li>
-              <li><a href="#"> Libertarian </a></li>
-            </ul>
-        <li><a href="#" id="navbar_button_css"> Jobs </a></li>
-        <li><a href="#" style="margin-left: 150px" id="navbar_button_css"> Contact Us </a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="navbar_button_style"> Schools <span class="sr-only">(current)></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"> Zimmerly </a></li>
+            <li><a href="#"> Parkview </a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#"> Sarracino </a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#"> Socorro High </a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#"> New Mexico Tech </a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="navbar_button_style"> Business  <span class="sr-only">(current)></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"> Local </a></li>
+            <li><a href="#"> Stock Market </a></li>
+            <li><a href="#"> International </a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="navbar_button_style"> World News  <span class="sr-only">(current)></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"> Republican </a></li>
+            <li><a href="#"> Democrat </a></li>
+            <li><a href="#"> Libertarian </a></li>
+          </ul>
+        </li>
+        <li><a href="#" id="navbar_button_style"> Health and Science <span class="sr-only">(current)</span></a></li>
+        <li><a href="#" id="navbar_button_style"> Technology <span class="sr-only">(current)</span></a></li>
+      </ul>
       
-      
-
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" id="navbar_button_style"> Contact </a></li>
+      </ul>
     </div><!-- /.navbar-collapse -->
-
   </div><!-- /.container-fluid -->
 </nav>

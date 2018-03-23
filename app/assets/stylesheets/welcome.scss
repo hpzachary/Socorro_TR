@@ -17,21 +17,38 @@ h2 {
 
 // css for navbar 
 
-#navbar_headline_text {
+.headline {
+	font-family: Times Header;	
+	font-size: 70px;
 	text-align: center;
-	font-size: 60px;
 }
 
-#navbar {
-	max-height: 10px;
-	border-color: white;
+#navbar_button_style:hover {
+    background:#0000FF;
+} 
+
+#navbar_button_style {
+	background-color: #000080;
+	color: white;
+	margin-left: 15px;
 }
 
-#navbar_button_css {
-	
-	margin-left: 30px;
-	color: black;
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
 }
 
+.navbar-default .navbar-toggle .icon-bar:hover {
+    background:#0000FF;
+}
 
+.navbar-default .navbar-toggle {
+	color: #000080;
+}
 
+.navbar-default .navbar-toggle:hover {
+	background:#0000FF;
+}
+
+.navbar-default .navbar-toggle:focus {
+	background-color: #0000FF;
+}
