@@ -79,7 +79,9 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *PostgreSQL
+  ## This line was saying "Use the settings from the 'Postgresql' environment"
+  ## But there obviously is no 'PostgreSQL' environment!
+  # <<: *PostgreSQL  # Should be e.g. "production" or "dev", not "PostgreSQL"
   database: socorro_tr_production
   username: socorro_tr
   password: <%= ENV['SOCORRO_TR_DATABASE_PASSWORD'] %>
